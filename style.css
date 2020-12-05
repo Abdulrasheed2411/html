@@ -81,7 +81,8 @@ p{
 }
 
 .header{
-    background:radial-gradient(#fff, rgb(187, 31, 31));
+    background:radial-gradient(#fff, #cadcddce);
+
 }
 
 .header .row{
@@ -106,6 +107,8 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    background:radial-gradient(#fff, #cadcddce);
+
 }
 .col-4{
     flex-basis: 25%;
@@ -160,7 +163,7 @@ h4{
 }
 /*  offer  */
 .offer{
-   background: radial-gradient(#fff,rgb(187, 31, 31));
+    background:radial-gradient(#fff, #cadcddce);
    margin-top: 80px;
    padding: 30px 0; 
 }
@@ -179,7 +182,7 @@ small{
 
 .testimonial{
     padding-top: 100px;
-    background:radial-gradient(#fff, rgb(187, 31, 31));
+    background:radial-gradient(#fff, #cadcddce);
 
 }
 .testimonial .col-3 {
