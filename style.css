@@ -129,7 +129,7 @@ p{
     line-height: 60px;
     color:#555;
 }
-
+/*line under featured products */
 .title::after{
     content: '';
     background: #ff523b;
