@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -81,13 +82,22 @@ p{
 }
 
 .header{
-    background:radial-gradient(#fff, #cadcddce);
+    background:radial-gradient( #ffcece);
 
 }
 
-.header .row{
+.header .row {
     margin-top: 70px;
 
+}
+.logo{
+    margin-top: 0px;
+
+}
+.logo p {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: bold;
 }
 .categories{
     margin: 70px 0;
@@ -107,7 +117,7 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background:radial-gradient(#fff, #cadcddce);
+    background:radial-gradient( #ffcece);
 
 }
 .col-4{
@@ -163,7 +173,7 @@ h4{
 }
 /*  offer  */
 .offer{
-    background:radial-gradient(#fff, #cadcddce);
+    background:radial-gradient( #ffcece);
    margin-top: 80px;
    padding: 30px 0; 
 }
@@ -179,7 +189,7 @@ small{
 
 
 /*testimonial */
-
+/*
 .testimonial{
     padding-top: 100px;
     background:radial-gradient(#fff, #cadcddce);
@@ -220,7 +230,7 @@ small{
   color: #555;
   font-size: 16px;
 }
-
+*/
 /*brands */
 .brands {
     margin: 100px auto;
@@ -232,10 +242,10 @@ small{
  .col-5 img {
      width: 100%;
      cursor: pointer;
-  /* filter: grayscale(100%)*/   
+   /*filter: grayscale(100%)  */
  }
  .col-5 img:hover{
-    filter: grayscale(0%)
+    /*filter: grayscale(0%)*/
  }
 
  /* footer*/
@@ -322,6 +332,9 @@ ul{
     background: #ff523b;
     color: #fff;
 }
+
+/* single products details*/
+
  .single-products{
      margin-top: 90px;
  }
@@ -482,5 +495,66 @@ th:last-child{
 }
 
 }
+    
+
+/* signup form */
 
 
+.signup{
+    background: radial-gradient( rgb(243, 181, 181), #fff);
+    width: 800px;
+    margin: auto;
+   
+    padding: 20px 0 0 0;
+    
+}
+
+.form{
+    padding:20px 30px;
+}
+
+.sellerregform{
+    width: 400px;
+    margin: auto;
+   
+    padding: 40px 0 0 0;
+}
+
+/* Style inputs */
+input[type='text']{
+    width: 300px;
+    height: 20px;
+    padding: 20px 20px;
+    margin: 8px 0;
+   display: list-item;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    
+  }
+
+
+  /* Style inputs */
+input[type='email'] {
+    width: 300px;
+    height: 10px;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: list-item;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+  }
+   /* Style inputs */
+input[type='password'] {
+    width: 300px;
+    height: 10px;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: list-item;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+  }
+
+
+ 

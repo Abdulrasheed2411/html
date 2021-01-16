@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-    <title>ABstore</title>
+    <title>Jumga</title>
     
     <link rel="Shortcut icon"  type="image/png" href="images/cart - Copy.png">
     <link rel="stylesheet" href="style.css">
@@ -11,23 +11,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="header">
     <div class= "container">
     <div class="navbar">
         <div class="logo">
-            <img src="images/logo1.jpg" width="125px">
+            <p  width="125px">JUMGA</p>
         </div>
         <nav>
             <ul id="MenuItems">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-               
+                <li><a href="signup.html">Become a seller</a></li>
+                <li><a href="login.html">Login</a>/<a href="signup.html">Signup</a></li>
             </ul>
         </nav>
         <a href="cart.html">
-        <img src="images/cart.png" width="30px" height="30px"></a>
+        <img id="cart-info"  src="images/cart.png" width="30px" height="30px" ></a>
         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
     </div>
 
@@ -44,28 +45,13 @@
         <div class="col-2">
          <a href="products.html">   <img src="images/home1.jpg" ></a>
 
-            </div>
-    </div>
-</div>
-</div>
-
-
-<!-- features-->
-<div class="categories">
-    <div class="small-container">
-    <div class="row">
-        <div class="col-3">
-            <a href="products.html">    <img src="images/category-1.jpg"></a>
         </div>
-        <div class="col-3">
-            <a href="products.html">    <img src="images/category-2.jpg"></a>
-            </div>
-            <div class="col-3">
-                <a href="products.html">    <img src="images/category-3.jpg"></a>
-                </div>
     </div>
 </div>
 </div>
+
+<br>
+<br>
 <div class= "small-container">
     <a href="products.html">    <h2 class="title">featured products</h2></a>
     <div class="row">
@@ -79,7 +65,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
             </div>
-            <p>$5000</p>
+            <p>$100</p>
         </div>
         <div class="col-4">
             <a href="products.html">       <img src="images/product-2.jpg"></a>
@@ -91,7 +77,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                 </div>
-                <p>$20</p>
+                <p>$200</p>
             </div>
             <div class="col-4">
                 <a href="products.html">     <img src="images/product-3.jpg"></a>
@@ -115,7 +101,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                         </div>
-                        <p>$5000</p>
+                        <p>$500</p>
                     </div>
     </div>
     <h2 class="title"> <a href="products.html">Latest products </a></h2>
@@ -130,7 +116,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                 </div>
-                <p>$5000</p>
+                <p>$300</p>
             </div>
             <div class="col-4">
                     <img src="images/product-2.jpg">
@@ -173,6 +159,7 @@
 <!--offer-->
 <div class="offer">
     <div class="small-container">
+            <h2 class="title">EXCLUSIVE</h2></a>
         <div class="row">
             <div class="col-2"> 
                     <a href="products.html"><img src="images/exclusive.png" class="offer-img"></a>
@@ -190,78 +177,28 @@
         </div>
     </div>
 </div>
-<!-- TESTIMONIAL PART -->
-<div class="testimonial">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-            <p>It was an awesome experience shopping at ABstore 
-                <br>fast delivery and affordable prices
-            </p>
-            <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-            </div>
-            <img src="images/user-1.png">
-            <h3>sean parker</h3>
-            </div>
-            <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                <p>It was an awesome experience shopping at ABstore 
-                        <br>fast delivery and affordable prices
-                   
-                </p>
-                <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                </div>
-                <img src="images/user-1.png">
-                <h3>sean parker</h3>
-                </div>
-                <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                    <p>It was an awesome experience shopping at ABstore 
-                            <br>fast delivery and affordable prices
-                    </p>
-                    <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                    </div>
-                    <img src="images/user-1.png">
-                    <h3>sean parker</h3>
-                    </div>       
-                   </div>
-                 </div>
-                </div>
  <!---brands-->
  <div class="brands">
         <div class="small-container">
+                <h2 class="title">BRANDS</h2></a>
             <div class="row">
                 <div class="col-5">
-                <img src="images/logo-coca-cola.png">
-                </div>
+                    <img src="images/ft.png">
+                      </div>
+              
                 <div class="col-5">
-                <img src="images/logo-godrej.png">
-                </div>
+                    <img src="images/betway logo.png">
+                    </div>
                     <div class="col-5">
-                   <img src="images/logo-paypal.png">
+                   <img src="images/Africa Fintech foundry logo.png">
                     </div>
                        <div class="col-5">
-                     <img src="images/logo-philips.png">
+                     <img src="images/Arik air logo.png">
                      </div>
                      <div class="col-5">
-                    <img src="images/logo-white.png">
+                    <img src="images/Cravvings logo.png">
                       </div>
+                     
             </div>
         </div>
     </div>
@@ -270,8 +207,8 @@
     <div class="container"> 
         <div class="row">
           <div class="footer-col-1">
-              <h3>download our app</h3>
-              <p>get app on playstore</p>
+              <h3>Download our app</h3>
+              <p>Get app on playstore</p>
               <div class="app-logo">
                   <img src="images/play-store.png">
                   <img src="images/app-store.png">
@@ -282,26 +219,26 @@
               <p>Abstore clothings.</p>
           </div>
           <div class="footer-col-3">
-                <h3>useful links</h3>
+                <h3>Useful Links</h3>
                <ul>
-                   <li>coupons</li>
-                   <li>bog post</li>
-                   <li>return policy</li>
+                   <li>Coupons</li>
+                   <li>Blog post</li>
+                   <li>Return policy</li>
                    <li>Affiliate</li>
                </ul>
             </div>
             <div class="footer-col-4">
                     <h3>follow us</h3>
                    <ul>
-                       <li>facebook</li>
-                       <li>twitter</li>
-                       <li>instagram</li>
-                       <li>youtube</li>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
                    </ul>
                 </div>
     </div>
     <hr>
-    <p class="copyright">copyright 2020 -- abdulola </p>
+    <p class="copyright">Copyright 2020 -- Abdulola </p>
     </div>
 </div>
 <!--javascript for menu display on click -->
@@ -318,5 +255,19 @@
         }
     }
 </script>
+<!--sript for cart -->
+<script>
+   ( function(){
+       const cartInfo =documment.getElementById("cart-info");
+       const cart = document.getElementById('cart');
+
+   cartInfo.addEventListener('click' , function(){
+       cart.classList.toggle(cartInfo);
+   })    
+
+
+
+    })();
+</script>
 </body>
-</html>>
+</html>

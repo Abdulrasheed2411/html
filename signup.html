@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Jumga</title>
+    
+    <link rel="Shortcut icon"  type="image/png" href="images/cart - Copy.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+        <div class="header">
+                <div class= "container">
+                <div class="navbar">
+                    <div class="logo">
+                        <p  width="125px">JUMGA</p>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="signup.html">Become a seller</a></li>
+                            <li><a href="login.html">Login</a>/<a href="signup.html">Signup</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html">
+                    <img id="cart-info"  src="images/cart.png" width="30px" height="30px" ></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+
+<div class="signup">
+<div class="sellerregform"><p><h3>Seller Registration Form</h3></p></div>
+<div class="form">
+    <form>  
+    <label>  Fullname : </label>
+    <input   type="text" placeholder="Surname  Lastname">
+    <label>  Shopname: </label>
+    <input   type="text" placeholder="Business name">
+    <label>  Phone:</label>
+    <input   type="text" placeholder="your mobile number">
+    <label>  Email:  </label>
+    <input   type="email" your email address>
+    <label>  Country:</label>
+    <input   type="text" placeholder="Country of residence">
+    <label>  Contact:</label>
+    <input   type="text" placeholder="contact address">
+    
+  
+    <div class="checkbox"> <input type="checkbox"><p>I agree to the terms and condition of Jumga</p></div>
+    <br>
+    <button class=" btn">Submit</button> 
+
+    </form>
+</div>
+
+ </div>
+
+ <div class="footer">
+        <div class="container"> 
+            <div class="row">
+              <div class="footer-col-1">
+                  <h3>Download our app</h3>
+                  <p>Get app on playstore</p>
+                  <div class="app-logo">
+                      <img src="images/play-store.png">
+                      <img src="images/app-store.png">
+                  </div>
+              </div>
+              <div class="footer-col-2">
+                  <img src="images/logo-white.png">
+                  <p>Abstore clothings.</p>
+              </div>
+              <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog post</li>
+                       <li>Return policy</li>
+                       <li>Affiliate</li>
+                   </ul>
+                </div>
+                <div class="footer-col-4">
+                        <h3>follow us</h3>
+                       <ul>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                           <li>Instagram</li>
+                           <li>Youtube</li>
+                       </ul>
+                    </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 -- Abdulola </p>
+        </div>
+    </div>
+</div>
+<!--javascript for menu display on click -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if( MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!--sript for cart -->
+<script>
+   ( function(){
+       const cartInfo =documment.getElementById("cart-info");
+       const cart = document.getElementById('cart');
+
+   cartInfo.addEventListener('click' , function(){
+       cart.classList.toggle(cartInfo);
+   })    
+
+
+
+    })();
+</script>
+ </body>
+
+
+
+
+
+
